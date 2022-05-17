@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link type="text/css" media="all" href="assets/calc/elromco/elromco.css" rel="stylesheet" />
+    <link type="text/css" media="all" href="assets/calc/elromco/company/company.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/style.css">
+    <title>Services</title>
+</head>
+<body ng-app="movecalc" ng-controller="movecalController">
+
+<div class="wrapper">
+    <header class="header header main">
+        <div class="header__top top-header">
+            <div class="top-header__container container">
+                <p class="top-header__label">US DOT: 0000000, MC:0000000</p>
+                <p class="top-header__label">FULLY LICENSED & INSURED COMPANY</p>
+            </div>
+        </div>
+        <div class="header__main main-header main-header_transparent">
+            <div class="main-header__container container">
+                <a href="" class="main-header__logo">
+                    <svg>
+                        <use xlink:href="assets/images/logo.svg#logo"></use>
+                    </svg>
+                </a>
+                <div class="main-header__menu menu">
+                    <div class="menu__content">
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="/" class="menu__link">Home</a></li>
+                                <li class="menu__item"><a href="services.html" class="menu__link">Services</a></li>
+                                <li class="menu__item"><a href="pricing.html" class="menu__link">Pricing</a></li>
+                                <li class="menu__item"><a href="booking.html" class="menu__link">Booking</a></li>
+                                <li class="menu__item"><a href="about.html" class="menu__link">About Us</a></li>
+                            </ul>
+                        </nav>
+                        <a href="" class="menu__button button">Get a quote</a>
+                    </div>
+                </div>
+                <a href="" data-da=".menu__content,767.98,last" class="main-header__user user-header">
+                    <div class="user-header__icon">
+                        <svg>
+                            <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                        </svg>
+                    </div>
+                    <span class="user-header__username">John Doe</span>
+                </a>
+                <button type="button" class="main-header__icon icon-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <div class="page__intro intro-page">
+            <div class="intro-page__container container">
+                <div class="intro-page__body">
+                    <div class="intro-page__content">
+                        <h1 class="intro-page__title">We Make Moving Easy</h1>
+                        <p class="intro-page__text">When the occasion calls for moving, call Better life moving. We make
+                            moving easy</p>
+                        <ul class="intro-page__steps">
+                            <li class="intro-page__step step-intro-page">
+                                <div class="step-intro-page__icon">
+                                    <img src="assets/images/icons/home/arrow.svg" alt="">
+                                </div>
+                                <div class="step-intro-page__text">Get a quote</div>
+                            </li>
+                            <li class="intro-page__step step-intro-page">
+                                <div class="step-intro-page__icon">
+                                    <img src="assets/images/icons/home/package.svg" alt="">
+                                </div>
+                                <div class="step-intro-page__text">Book your move</div>
+                            </li>
+                            <li class="intro-page__step step-intro-page">
+                                <div class="step-intro-page__icon">
+                                    <img src="assets/images/icons/home/truck.svg" alt="">
+                                </div>
+                                <div class="step-intro-page__text">Move easily</div>
+                            </li>
+                        </ul>
+<!--                        <form action="#" data-da=".intro-page__body,991.98,last" class="intro-page__form choice">-->
+<!--                            <div class="choice__actions">-->
+<!--                                <button type="button" class="choice__toggler">-->
+<!--                                    <svg>-->
+<!--                                        <use xlink:href="assets/images/icons/icons.svg#arrow-down-up"></use>-->
+<!--                                    </svg>-->
+<!--                                </button>-->
+<!--                                <div data-select-item class="choice__select select">-->
+<!--                                    <svg class="select__icon">-->
+<!--                                        <use xlink:href="assets/images/icons/icons.svg#arrow-down"></use>-->
+<!--                                    </svg>-->
+<!--                                    <select name="from">-->
+<!--                                        <option disabled selected>From</option>-->
+<!--                                        <option value="1">Item 1</option>-->
+<!--                                        <option value="2">Item 2</option>-->
+<!--                                        <option value="3">Item 3</option>-->
+<!--                                    </select>-->
+<!--                                </div>-->
+<!--                                <div data-select-item class="choice__select select">-->
+<!--                                    <svg class="select__icon">-->
+<!--                                        <use xlink:href="assets/images/icons/icons.svg#arrow-down"></use>-->
+<!--                                    </svg>-->
+<!--                                    <select name="to">-->
+<!--                                        <option disabled selected>To</option>-->
+<!--                                        <option value="4">Item 4</option>-->
+<!--                                        <option value="5">Item 5</option>-->
+<!--                                        <option value="6">Item 6</option>-->
+<!--                                    </select>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="choice__bottom">-->
+<!--                                <button class="from-service__button button button_big">Get a quote</button>-->
+<!--                            </div>-->
+<!--                        </form>-->
+                        <div ng-cloak class="ultra-form-wrapper">
+                            <ultrasmall-form></ultrasmall-form>
+                        </div>
+
+                    </div>
+                    <div class="intro-page__image ibg">
+                        <img src="assets/images/home/moving-easy.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__advantages advantages">
+            <div class="advantages__container container">
+                <div class="advantages__top top-block">
+                    <h2 class="top-block__title">The way to move. The way to care</h2>
+                    <a href="" class="top-block__more" data-da=".advantages__body,767.98,last">
+                        Learn more
+                        <svg>
+                            <use xlink:href="assets/images/icons/icons.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="advantages__body">
+                    <div class="advantages__items swiper">
+                        <div class="advantages__item item-advantages">
+                            <div class="item-advantage__body">
+                                <div class="item-advantage__icon">
+                                    <img src="assets/images/icons/advantages/lock.svg" alt="">
+                                </div>
+                                <h3 class="item-advantage__title">Better Life Moving is fully licensed and insured</h3>
+                                <p class="item-advantage__text">Our team offers wide range of moving services as well as
+                                    packing and storage solutions to those, who need it</p>
+                            </div>
+                        </div>
+                        <div class="advantages__item item-advantages">
+                            <div class="item-advantage__body">
+                                <div class="item-advantage__icon">
+                                    <img src="assets/images/icons/advantages/shield.svg" alt="">
+                                </div>
+                                <h3 class="item-advantage__title">We want to make your life better!</h3>
+                                <p class="item-advantage__text">Our team of professionals is dedicated to provide you
+                                    with stress-free and reliable service while relocating from one place to another</p>
+                            </div>
+                        </div>
+                        <div class="advantages__item item-advantages">
+                            <div class="item-advantage__body">
+                                <div class="item-advantage__icon">
+                                    <img src="assets/images/icons/advantages/clock.svg" alt="">
+                                </div>
+                                <h3 class="item-advantage__title">The time is one of the most valuable resources</h3>
+                                <p class="item-advantage__text">You can rest assured that Better Life Moving will give
+                                    you the fastest, efficient, and secured way to move.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages__dotts dotts"></div>
+                </div>
+                <div class="advantages__bottom">
+                    <a href="" class="advantages__button button">Get a quote</a>
+                </div>
+            </div>
+        </div>
+        <div class="page__about about-page">
+            <div class="about-page__container container">
+                <h2 class="about-page__title main-title">Better Life Moving is fully licensed and <br>insured company.
+                    We want to make your <br>life better</h2>
+                <div class="about-page__body">
+                    <div class="about-page__decor">
+                        <svg>
+                            <use xlink:href="assets/images/icons/icons.svg#decor"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="assets/images/icons/icons.svg#lines"></use>
+                        </svg>
+                    </div>
+                    <div class="about-page__image ibg">
+                        <img src="assets/images/home/main-people.svg" alt="">
+                    </div>
+                    <div class="about-page__content">
+                        <p class="about-page__text">Our team offers wide range of moving services as well as packing and
+                            storage solutions to those, who need it</p>
+                        <div class="about-page__subimage ibg">
+                            <img src="assets/images/home/plant.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__calculator page-calculator">
+            <div class="page-calculator__container container">
+                <div class="calculator calculator_white">
+                    <move-Calculator></move-Calculator>
+                </div>
+            </div>
+        </div>
+        <form action="#" class="page__form form-page">
+            <div class="form-page__container container">
+                <div class="form-page__body">
+                    <h3 class="form-page__title title">Do you have any questions left?</h3>
+                    <div class="form-page__line">
+                        <div class="form-page__input">
+                            <input type="text" placeholder="Name" class="input">
+                        </div>
+                        <div class="form-page__input form-page__input_phone">
+                            <input type="tel" placeholder="Phone number" class="input">
+                        </div>
+                        <div class="form-page__submit">
+                            <button class="form-page__button button button_big">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+    <div class="footer__body">
+        <div class="footer__container container">
+            <div class="footer__main main-footer">
+                <div class="main-footer__info info-footer">
+                    <a href="" class="info-footer__logo">
+                        <svg>
+                            <use xlink:href="assets/images/logo.svg#logo"></use>
+                        </svg>
+                    </a>
+                    <div class="info-footer__labels">
+                        <p class="info-footer__label">US DOT: 0000000, MC:0000000</p>
+                        <p class="info-footer__label">FULLY LICENSED & INSURED COMPANY</p>
+                    </div>
+                </div>
+                <div class="main-footer__menu menu-footer">
+                    <nav data-spoilers="767.98,max" class="menu-footer__body">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Home</a></li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Services</a>
+                                <button data-spoiler type="button" tabindex="-1" class="menu-footer__arrow active">
+                                    <svg>
+                                        <use xlink:href="assets/images/icons/icons.svg#arrow-down"></use>
+                                    </svg>
+                                </button>
+                                <ul class="menu-footer__submenu submenu-footer">
+                                    <li class="submenu-footer__item"><a href="" class="submenu-footer__link">Local Moving</a></li>
+                                    <li class="submenu-footer__item"><a href="" class="submenu-footer__link">Long-distance moving</a></li>
+                                    <li class="submenu-footer__item"><a href="" class="submenu-footer__link">Moving & storage</a></li>
+                                    <li class="submenu-footer__item"><a href="" class="submenu-footer__link">Moving & packing</a></li>
+                                    <li class="submenu-footer__item"><a href="" class="submenu-footer__link">Comercial moving</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Pricing</a></li>
+                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Booking</a></li>
+                            <li class="menu-footer__item menu-footer__item_last">
+                                <a href="" class="menu-footer__link">About Us</a>
+                                <div class="menu-footer__contacts">
+                                    <div class="menu-footer__address">Aurora, CO 80013</div>
+                                    <a href="tel:340980098078" class="menu-footer__phone">+34 0980 0980 78</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom bottom-footer">
+                <div class="bottom-footer__info">
+                    <div class="bottom-footer__copy">© Better Life Moving. All rights reserved</div>
+                    <a href="" class="bottom-footer__agreements">Terms & Agreements</a>
+                    <a href="" class="bottom-footer__policy">Privacy Policy</a>
+                </div>
+                <div class="bottom-footer__social social-footer">
+                    <ul class="social-footer__items">
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link">
+                                <svg>
+                                    <use xlink:href="assets/images/icons/icons.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link">
+                                <svg>
+                                    <use xlink:href="assets/images/icons/icons.svg#youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link">
+                                <svg>
+                                    <use xlink:href="assets/images/icons/icons.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link">
+                                <svg>
+                                    <use xlink:href="assets/images/icons/icons.svg#telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a href="" class="social-footer__link">
+                                <svg>
+                                    <use xlink:href="assets/images/icons/icons.svg#google"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/calc/elromco/app.import.js"></script>
+<script src="assets/calc/elromco/company/app.module.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAEn8Lz2l1l93nhoetShU_1pVN44pdtoFk&language=en"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
+
